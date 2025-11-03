@@ -1,0 +1,50 @@
+#campaign {width: 500px;}
+  BODY { background: #6072fa; padding: 50px;}
+  H1, H2, H3 {color: #ffffff; font-family: sans-serif;}
+
+  #camp { background: rgb(54, 199, 98);}
+
+  body {
+  background: #6072fa;
+  padding: 50px;
+  color: white;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+#camp {
+  background: rgb(54, 199, 98);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 30px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+button {
+  background-color: #00b050;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #008d3a;
+}
