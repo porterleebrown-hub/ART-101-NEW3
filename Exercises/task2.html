@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jQuery Working Demo</title>
+
+  <!-- Load jQuery -->
+  <script src="task2.js"></script>
+
+
+  <style>
+    p {
+      padding: 10px;
+      background: #eee;
+      width: 200px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <link rel="stylesheet" href="task2.css">
+
+  <p id="p1">Hover over me!</p>
+  <p id="p2">Click me!</p>
+
+  <script>
+    // Run AFTER the page and jQuery load
+    $(document).ready(function() {
+
+      // Click event for all <p>
+      $("p").click(function() {
+        alert("A paragraph was clicked!");
+      });
+
+      // Hover event for #p1
+      $("#p1").hover(
+        function() {
+          alert("You entered p1!");
+        },
+        function() {
+          alert("Bye! You now leave p1!");
+        }
+      );
+
+    });
+  </script>
+
+</body>
+</html>

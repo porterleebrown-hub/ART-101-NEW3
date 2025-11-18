@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  padding: 40px;
+}
+
+/* Paragraph boxes */
+p {
+  padding: 15px 20px;
+  background: white;
+  width: 260px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  transition: 0.25s ease;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Hover effect for all <p> */
+p:hover {
+  background: #f8f8ff;
+  border-color: #6a5acd;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+/* Special style for the hover paragraph (#p1) */
+#p1 {
+  border-color: #1e90ff;
+}
+
+#p1:hover {
+  background: #e9f3ff;
+  border-color: #1c7ed6;
+}
